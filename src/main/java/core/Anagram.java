@@ -17,7 +17,7 @@ public class Anagram {
 		if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
 			return false;
 		}
-		System.out.println("Entering test");
+		System.out.println(password);
 		int value = 0;
 		for (int i = 0; i < s.replaceAll("\\s", "").length(); i++) {
 			value += (s.replaceAll("\\s", "").toLowerCase().charAt(i));
