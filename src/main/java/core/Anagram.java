@@ -5,7 +5,7 @@ package core;
 public class Anagram {
 
 	@SuppressWarnings("null")
-	public static boolean getBoolean(String name) {
+	public static boolean A(String name) {
 		boolean n = (Boolean) null;
 		return n;
 	}
