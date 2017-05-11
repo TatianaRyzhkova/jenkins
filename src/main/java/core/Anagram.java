@@ -4,8 +4,19 @@ package core;
 
 public class Anagram {
 
+	@SuppressWarnings("null")
+	public static boolean getBoolean(String name) {
+		boolean n = (Boolean) null;
+		return n;
+	}
+
 	public static boolean validate(String s, String t) {
-		if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {return false;}
+
+		String password = "pass";
+
+		if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
+			return false;
+		}
 		System.out.println("Entering test");
 		int value = 0;
 		for (int i = 0; i < s.replaceAll("\\s", "").length(); i++) {
