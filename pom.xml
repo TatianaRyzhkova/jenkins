@@ -49,20 +49,36 @@
 	<reporting>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-report-plugin</artifactId>
-				<version>2.19.1</version>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-surefire-report-plugin</artifactId>
+			    <version>2.20</version>
 			</plugin>
 			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
 				<version>2.9</version>
 			</plugin>
 			<plugin>
+				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jxr-plugin</artifactId>
 				<version>2.5</version>
 			</plugin>
+	        <plugin>
+	            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-pmd-plugin -->
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-pmd-plugin</artifactId>
+	            <version>3.8</version>
+	           	<configuration>
+					<linkXref>true</linkXref>
+					<sourceEncoding>utf-8</sourceEncoding>
+					<minimumTokens>1</minimumTokens>
+					<targetJdk>1.8</targetJdk>
+					<skipEmptyReport>false</skipEmptyReport>
+    			</configuration>
+	        </plugin>
 		</plugins>
 	</reporting>
 </project>
