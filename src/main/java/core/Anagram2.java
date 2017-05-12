@@ -3,7 +3,11 @@ package core;
 public class Anagram2 {
 
 	public boolean abc(Object o) { return this == o; }
-	
+	  int x;
+	  public void foo2() {
+	    x = x;
+	  }
+
 	public static boolean validate(String s, String t) {
 
 		String password = "pass";
