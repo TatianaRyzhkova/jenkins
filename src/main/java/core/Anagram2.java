@@ -2,6 +2,8 @@ package core;
 
 public class Anagram2 {
 
+	public boolean abc(Object o) { return this == o; }
+	
 	public static boolean validate(String s, String t) {
 
 		String password = "pass";
