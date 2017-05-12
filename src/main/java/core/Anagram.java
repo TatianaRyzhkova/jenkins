@@ -1,6 +1,7 @@
 package core;
 
 // Two strings are called anagrams if they contain same set of characters but in different order.
+// Two strings are called anagrams if they contain same set of characters but in different order.
 
 public class Anagram {
 
