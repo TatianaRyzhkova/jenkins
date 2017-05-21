@@ -1,6 +1,6 @@
 package core;
 
-public class Anagram3 {
+public class Anagram4 {
 
 	public boolean abc(Object o) { return this == o; }
 	  int x;
