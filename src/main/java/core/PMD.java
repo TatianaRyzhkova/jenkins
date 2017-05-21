@@ -82,12 +82,12 @@ public class PMD {
 	// Violations 08 - AvoidBranchingStatementAsLastInLoop
 	 public void test2() {
 	        final boolean value = true ? false : false; // can be as simple as value = !condition && something();
-	   	 for (int r = 0; r < 10; r++) {
-				if (r*r <= 25) {
-					continue;
-				}
-				break;
-			}
+//	   	 for (int r = 0; r < 10; r++) {
+//				if (r*r <= 25) {
+//					continue;
+//				}
+//				break;
+//			}
 
 			  // this makes more sense...
 			for (int r = 0; r < 10; r++) {
