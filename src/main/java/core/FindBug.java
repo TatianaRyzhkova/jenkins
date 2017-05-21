@@ -29,7 +29,7 @@ public class FindBug {
 //		int x=0;
 //		while (true)	// not recommended
 //		      x++;
-//	}
+	}
 	
 	// Violations 04 - There is an apparent infinite loop
 	public void foo() {
