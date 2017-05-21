@@ -61,22 +61,22 @@ public class PMD {
 	
 	// Violations 07 - AvoidMultipleUnaryOperators
 	// These are typo bugs, or at best needlessly complex and confusing:
-	int i = - -1;
-	int j = + - +1;
-	int z = ~~2;
-	boolean b = !!true;
-	boolean c = !!!true;
-
-	// These are better:
-	int ii = 1;
-	int jj = -1;
-	int zz = 2;
-	boolean bb = true;
-	boolean cc = false;
-
-	// And these just make your brain hurt:
-	int iii = ~-2;
-	int jjj = -~7;
+//	int i = - -1;
+//	int j = + - +1;
+//	int z = ~~2;
+//	boolean b = !!true;
+//	boolean c = !!!true;
+//
+//	// These are better:
+//	int ii = 1;
+//	int jj = -1;
+//	int zz = 2;
+//	boolean bb = true;
+//	boolean cc = false;
+//
+//	// And these just make your brain hurt:
+//	int iii = ~-2;
+//	int jjj = -~7;
 	
 	
 	// Violations 08 - AvoidBranchingStatementAsLastInLoop
