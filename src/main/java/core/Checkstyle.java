@@ -13,7 +13,7 @@ public class Checkstyle {
 
 	// Violations 02 - AvoidInlineConditionals
 	String b = getParameter("a");
-	String c = (a == null || a.length < 1) ? null : b.substring(1);
+	//String c = (a == null || a.length < 1) ? null : b.substring(1);
 
 	private String getParameter(String string) {
 		// TODO Auto-generated method stub
@@ -78,7 +78,7 @@ public class Checkstyle {
 		// fallthrough
 		case 5:
 			i++;
-			/* fallthru */case 6:
+		//	/* fallthru */case 6:
 			i++;
 			break;
 		}
@@ -121,14 +121,13 @@ public class Checkstyle {
 		var1 = 1; var2 = 2;
 		int var11 = 1; int var22 = 2;
 		var1++; var2++;
-		Object obj1 = new Object(); Object obj2 = new Object();
+	//	Object obj1 = new Object(); Object obj2 = new Object();
 		//import java.io.EOFException; import java.io.BufferedReader;
-		;; //two empty statements on the same line.
+		//;; //two empty statements on the same line.
 
 		//Multi-line statements:
 		int var = 1
 		; var2 = 2; //violation here
-		int o = 1, p = 2,
-		r = 5; int t; //violation here
+		//int o = 1, p = 2, r = 5; int t; //violation here
 	}
 }
