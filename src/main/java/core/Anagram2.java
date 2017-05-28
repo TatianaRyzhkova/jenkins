@@ -35,7 +35,7 @@ public class Anagram2 {
 		for (;true;);
 	}
 
-}
+
 public class Anagram3 {
 
 	public boolean abc(Object o) { return this == o; }
@@ -71,4 +71,5 @@ public class Anagram3 {
 		for (;true;);
 	}
 
+}
 }
