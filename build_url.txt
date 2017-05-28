@@ -1,0 +1,1 @@
+http://jenkins.ychukhrai.com:9999/job/QA_HW06_Push/15/ 
