@@ -45,7 +45,7 @@ public class Anagram3 {
 	    x = x;
 	  }
 
-	public static boolean validate(String s, String t) {
+	public boolean validate(String s, String t) {
 
 		String password = "pass";
 
